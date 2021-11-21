@@ -1,0 +1,50 @@
+.card {
+  padding: 0.5rem;
+  margin: 2rem 1rem;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 90%;
+  &__img {
+    width: auto;
+    height: 45%;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    justify-content: space-between;
+  }
+  &__title {
+    height: 20%;
+  }
+  &__details {
+    height: 60%;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+    font-size: 0.7rem;
+    &--green {
+      background: rgba(0, 255, 0, 0.2);
+    }
+    &--red {
+      background: rgba(255, 0, 0, 0.3);
+    }
+  }
+  &__row-title {
+    font-weight: bold;
+  }
+  &__company {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 15%;
+    &__img {
+      height: 100%;
+      margin: 0 0.5rem;
+    }
+  }
+}
